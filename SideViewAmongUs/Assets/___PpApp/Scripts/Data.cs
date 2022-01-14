@@ -31,6 +31,8 @@ namespace PPD.DataContents
     [TitleGroup("LevelDesigns"), Serializable]
     public class LevelDesigns : Contents
     {
+        public float maxSpeed = 5;
+        public float jumpPower = 10;
     }
 
     [TitleGroup("Prefabs"), Serializable]

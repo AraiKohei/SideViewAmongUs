@@ -31,3 +31,5 @@ MonoBehaviour:
     debugKey_next: 110
     debugKey_clear: 99
     debugKey_kill: 107
+  _LevelDesigns:
+    maxSpeed: 5.08

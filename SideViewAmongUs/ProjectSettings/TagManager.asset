@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Effects
   - AudioManager
+  - Stage
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Field
   - 
   - 
   - "\u540C\u5C64\u306E\u885D\u7A81\u7121\u8996"

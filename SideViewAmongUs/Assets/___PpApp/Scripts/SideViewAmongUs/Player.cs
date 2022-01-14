@@ -9,25 +9,6 @@ namespace PPD
 
         void Update()
         {
-            var inputRight = 0f;
-            if (Input.GetKey(KeyCode.W))
-            {
-
-            }
-            if (Input.GetKey(KeyCode.A))
-            {
-                inputRight -= 1;
-            }
-            if (Input.GetKey(KeyCode.S))
-            {
-
-            }
-            if (Input.GetKey(KeyCode.D))
-            {
-                inputRight += 1;
-            }
-
-            rb.AddForce(Vector3.right * inputRight * 50);
         }
     }
 }
